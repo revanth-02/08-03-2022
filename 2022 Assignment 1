@@ -1,0 +1,10 @@
+assignment1:
+s=input("enter the string: ")
+l=list(s)
+count=0
+for i in l:
+    if(i!='a' and i!='e' and i!='i' and i!='o' and i!='u'):
+        count=count+1
+    else:
+        continue 
+print(count)
